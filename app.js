@@ -54,8 +54,13 @@ app.post('/contact', async (req, res) => {
     }
 });
 
-const PORT = 3000;
-app.listen(PORT, async () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-    await checkDatabase();
-});
+const PORT = process.env.PORT || 3000;
+
+if (require.main === module) {
+    app.listen(PORT, async () => {
+        console.log(`Server running on http://localhost:${PORT}`);
+        await checkDatabase();
+    });
+}
+
+module.exports = app;
