@@ -1,6 +1,7 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "this is my portfolio",
   "main": "app.js",
   "scripts": {
