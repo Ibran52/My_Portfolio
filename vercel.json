@@ -8,11 +8,7 @@
     ],
     "functions": {
         "app.js": {
-            "includeFiles": [
-                "view/**",
-                "partials/**",
-                "public/**"
-            ]
+            "includeFiles": "{view/**,partials/**,public/**}"
         }
     }
 }
