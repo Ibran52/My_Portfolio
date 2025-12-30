@@ -2,6 +2,16 @@
 
 Welcome to **TechXpression**, my personal portfolio website showcasing my skills, projects, and a way to connect with me. This project is built with Node.js, Express, and modern web technologies, featuring a Supabase backend for handling contact form submissions.
 
+## 🚀 Futuristic 3D Portfolio Website
+
+A next-generation, interactive 3D portfolio website built to showcase my skills, projects, education, and professional journey in a modern, futuristic, and immersive experience. This portfolio goes beyond traditional web pages by using smooth camera transitions and interactive animations to present information in a visually engaging way.
+
+## 👤 About Me
+
+Hi 👋, I’m Ibran Siddique, a B.Sc. Information Technology student at B.K. Birla College and a passionate MERN Stack Developer with a strong interest in Java Backend Development.
+
+I believe in continuous learning, adaptability, and building scalable, efficient applications using modern technologies. Along with technical expertise, I actively work on improving my soft skills, discipline, and professional mindset.
+
 ## 🚀 Features
 
 -   **Responsive Design**: A modern, dark-themed UI that works seamlessly across all devices.
