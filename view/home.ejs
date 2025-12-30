@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/stylesheet/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <%- include('../partials/navbaar') %>
+
+        <div id="app">
+            <canvas id="canvas"></canvas>
+
+            <!-- Home Section -->
+            <section id="home">
+                <div class="intro-content">
+                    <h1>Hi, It's <span>Ibran Siddique</span></h1>
+                    <h3>I'm a <span class="role-text"></span></h3>
+                    <p>
+                        My name is Ibran Siddique. I am currently pursuing a Bachelor of Science in Information
+                        Technology (B.Sc. IT) at B.K. Birla College. In addition to my academic studies, I am also
+                        engaged in developing soft skills, which play a vital role in personal and professional growth.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ibran-siddique-00346b339/" target="_blank"><i
+                                class="ri-linkedin-fill"></i></a>
+                        <a href="https://github.com/Ibran52" target="_blank"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.instagram.com/ibran._.02/" target="_blank"><i
+                                class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="profile-container">
+                    <img src="/images/profile.png" alt="Ibran Siddique" class="profile-image">
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <h2 class="section-title">About <span>Me</span></h2>
+            <section id="about">
+                <div class="about-container">
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <!-- Card 1: About Me -->
+                            <article class="deconstructed-card text-card">
+                                <div class="card-layer card-background">
+                                    <div class="bg-grid">
+                                        <div class="grid-line horizontal" style="top: 25%"></div>
+                                        <div class="grid-line horizontal" style="top: 50%"></div>
+                                        <div class="grid-line horizontal" style="top: 75%"></div>
+                                        <div class="grid-line vertical" style="left: 33.33%"></div>
+                                        <div class="grid-line vertical" style="left: 66.66%"></div>
+                                    </div>
+                                    <div class="bg-objects">
+                                        <div class="bg-object circle"></div>
+                                        <div class="bg-object square"></div>
+                                        <div class="bg-object triangle"></div>
+                                    </div>
+                                </div>
+                                <div class="card-layer card-frame">
+                                    <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                        <rect class="frame-path" x="20" y="20" width="260" height="360" rx="24"
+                                            ry="24" />
+                                    </svg>
+                                </div>
+                                <div class="card-layer card-content egg-content">
+                                    <div class="content-fragment fragment-meta">
+                                        <div class="meta-line"></div>
+                                        <span class="meta-text">PROFILE</span>
+                                    </div>
+                                    <div class="content-fragment fragment-heading">
+                                        <h2 class="content-text">ABOUT ME</h2>
+                                        <h3 class="content-subtext">IBRAN SIDDIQUE</h3>
+                                    </div>
+                                    <div class="content-fragment fragment-body">
+                                        <p class="content-text">My name is Ibran Siddique, and I am currently pursuing a
+                                            Bachelor of Science in Information Technology (B.Sc. IT) at B.K. Birla
+                                            College.
+                                            Alongside my academic journey, I am actively working on developing strong
+                                            soft
+                                            skills, which play a crucial role in both personal growth and professional
+                                            success.</p>
+                                    </div>
+                                    <div class="content-fragment fragment-cta">
+                                        <a href="https://www.linkedin.com/in/ibran-siddique-00346b339/" class="cta-link"
+                                            target="_blank">
+                                            <div class="cta-box"></div>
+                                            <span class="cta-text">LINKEDIN</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Card 2: University Education -->
+                            <article class="deconstructed-card text-card">
+                                <div class="card-layer card-background">
+                                    <div class="bg-grid">
+                                        <div class="grid-line horizontal" style="top: 25%"></div>
+                                        <div class="grid-line horizontal" style="top: 50%"></div>
+                                        <div class="grid-line horizontal" style="top: 75%"></div>
+                                        <div class="grid-line vertical" style="left: 33.33%"></div>
+                                        <div class="grid-line vertical" style="left: 66.66%"></div>
+                                    </div>
+                                    <div class="bg-objects">
+                                        <div class="bg-object circle"></div>
+                                        <div class="bg-object square"></div>
+                                        <div class="bg-object triangle"></div>
+                                    </div>
+                                </div>
+                                <div class="card-layer card-frame">
+                                    <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                        <rect class="frame-path" x="20" y="20" width="260" height="360" rx="24"
+                                            ry="24" />
+                                    </svg>
+                                </div>
+                                <div class="card-layer card-content egg-content">
+                                    <div class="content-fragment fragment-meta">
+                                        <div class="meta-line"></div>
+                                        <span class="meta-text">EDUCATION</span>
+                                    </div>
+                                    <div class="content-fragment fragment-heading">
+                                        <h2 class="content-text">UNIVERSITY</h2>
+                                        <h3 class="content-subtext">B.SC. IT</h3>
+                                    </div>
+                                    <div class="content-fragment fragment-body">
+                                        <p class="content-text">I am pursuing my undergraduate degree in Information
+                                            Technology (B.Sc. IT) from B.K. Birla College. My academic performance
+                                            reflects
+                                            my dedication, as I secured an A++ grade in my first semester with a CGPA of
+                                            9.82.</p>
+                                    </div>
+                                    <div class="content-fragment fragment-cta">
+                                        <a href="#skills" class="cta-link">
+                                            <div class="cta-box"></div>
+                                            <span class="cta-text">VIEW SKILLS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Card 3: Higher Secondary Education (HSC) -->
+                            <article class="deconstructed-card text-card">
+                                <div class="card-layer card-background">
+                                    <div class="bg-grid">
+                                        <div class="grid-line horizontal" style="top: 25%"></div>
+                                        <div class="grid-line horizontal" style="top: 50%"></div>
+                                        <div class="grid-line horizontal" style="top: 75%"></div>
+                                        <div class="grid-line vertical" style="left: 33.33%"></div>
+                                        <div class="grid-line vertical" style="left: 66.66%"></div>
+                                    </div>
+                                    <div class="bg-objects">
+                                        <div class="bg-object circle"></div>
+                                        <div class="bg-object square"></div>
+                                        <div class="bg-object triangle"></div>
+                                    </div>
+                                </div>
+                                <div class="card-layer card-frame">
+                                    <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                        <rect class="frame-path" x="20" y="20" width="260" height="360" rx="24"
+                                            ry="24" />
+                                    </svg>
+                                </div>
+                                <div class="card-layer card-content egg-content">
+                                    <div class="content-fragment fragment-meta">
+                                        <div class="meta-line"></div>
+                                        <span class="meta-text">EDUCATION</span>
+                                    </div>
+                                    <div class="content-fragment fragment-heading">
+                                        <h2 class="content-text">HSC</h2>
+                                        <h3 class="content-subtext">COMMERCE STREAM</h3>
+                                    </div>
+                                    <div class="content-fragment fragment-body">
+                                        <p class="content-text">Completed Higher Secondary from New English Junior
+                                            College,
+                                            Ulhasnagar (2022–2024). Secured 68.67% in HSC Board Exam.</p>
+                                    </div>
+                                    <div class="content-fragment fragment-cta">
+                                        <a href="#" class="cta-link">
+                                            <div class="cta-box"></div>
+                                            <span class="cta-text">DETAILS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Card 4: School Education (SSC) -->
+                            <article class="deconstructed-card text-card">
+                                <div class="card-layer card-background">
+                                    <div class="bg-grid">
+                                        <div class="grid-line horizontal" style="top: 25%"></div>
+                                        <div class="grid-line horizontal" style="top: 50%"></div>
+                                        <div class="grid-line horizontal" style="top: 75%"></div>
+                                        <div class="grid-line vertical" style="left: 33.33%"></div>
+                                        <div class="grid-line vertical" style="left: 66.66%"></div>
+                                    </div>
+                                    <div class="bg-objects">
+                                        <div class="bg-object circle"></div>
+                                        <div class="bg-object square"></div>
+                                        <div class="bg-object triangle"></div>
+                                    </div>
+                                </div>
+                                <div class="card-layer card-frame">
+                                    <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                        <rect class="frame-path" x="20" y="20" width="260" height="360" rx="24"
+                                            ry="24" />
+                                    </svg>
+                                </div>
+                                <div class="card-layer card-content egg-content">
+                                    <div class="content-fragment fragment-meta">
+                                        <div class="meta-line"></div>
+                                        <span class="meta-text">EDUCATION</span>
+                                    </div>
+                                    <div class="content-fragment fragment-heading">
+                                        <h2 class="content-text">SSC</h2>
+                                        <h3 class="content-subtext">MAHARASHTRA BOARD</h3>
+                                    </div>
+                                    <div class="content-fragment fragment-body">
+                                        <p class="content-text">Completed SSC from B.G. Tilak English High School,
+                                            Ulhasnagar (2020–2021). Secured 67.67%, building a strong academic
+                                            foundation.
+                                        </p>
+                                    </div>
+                                    <div class="content-fragment fragment-cta">
+                                        <a href="#" class="cta-link">
+                                            <div class="cta-box"></div>
+                                            <span class="cta-text">DETAILS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Card 5: Professional Focus -->
+                            <article class="deconstructed-card text-card">
+                                <div class="card-layer card-background">
+                                    <div class="bg-grid">
+                                        <div class="grid-line horizontal" style="top: 25%"></div>
+                                        <div class="grid-line horizontal" style="top: 50%"></div>
+                                        <div class="grid-line horizontal" style="top: 75%"></div>
+                                        <div class="grid-line vertical" style="left: 33.33%"></div>
+                                        <div class="grid-line vertical" style="left: 66.66%"></div>
+                                    </div>
+                                    <div class="bg-objects">
+                                        <div class="bg-object circle"></div>
+                                        <div class="bg-object square"></div>
+                                        <div class="bg-object triangle"></div>
+                                    </div>
+                                </div>
+                                <div class="card-layer card-frame">
+                                    <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                        <rect class="frame-path" x="20" y="20" width="260" height="360" rx="24"
+                                            ry="24" />
+                                    </svg>
+                                </div>
+                                <div class="card-layer card-content egg-content">
+                                    <div class="content-fragment fragment-meta">
+                                        <div class="meta-line"></div>
+                                        <span class="meta-text">FOCUS</span>
+                                    </div>
+                                    <div class="content-fragment fragment-heading">
+                                        <h2 class="content-text">PROFESSIONAL</h2>
+                                        <h3 class="content-subtext">MERN & JAVA DEV</h3>
+                                    </div>
+                                    <div class="content-fragment fragment-body">
+                                        <p class="content-text">I am a MERN Stack Developer with a strong interest in
+                                            Java
+                                            Backend Development. I focus on building scalable applications and improving
+                                            both technical and interpersonal skills.</p>
+                                    </div>
+                                    <div class="content-fragment fragment-cta">
+                                        <a href="#contact" class="cta-link">
+                                            <div class="cta-box"></div>
+                                            <span class="cta-text">CONTACT ME</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <!-- Card 6: Age Calculator
+                        <article class="deconstructed-card">
+                            <div class="card-layer card-image">
+                                <svg class="wave-svg" viewBox="0 0 300 400" preserveAspectRatio="none">
+                                    <defs>
+                                        <linearGradient id="ageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#073B4C" />
+                                            <stop offset="100%" stop-color="#3C7C8C" />
+                                        </linearGradient>
+                                        <linearGradient id="waveAgeGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#185064" />
+                                            <stop offset="50%" stop-color="#4A8A9A" />
+                                            <stop offset="100%" stop-color="#185064" />
+                                        </linearGradient>
+                                        <linearGradient id="waveAgeGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#4A8A9A" />
+                                            <stop offset="50%" stop-color="#7AADBF" />
+                                            <stop offset="100%" stop-color="#4A8A9A" />
+                                        </linearGradient>
+                                    </defs>
+                                    <rect width="100%" height="100%" fill="url(#ageGradient)" />
+                                    <path
+                                        d="M0,230 C30,220 60,240 90,230 C120,220 150,240 180,230 C210,220 240,240 270,230 C290,225 295,230 300,225 L300,400 L0,400 Z"
+                                        fill="url(#waveAgeGradient1)" opacity="0.8" />
+                                    <path
+                                        d="M0,260 C40,250 80,270 120,260 C160,250 200,270 240,260 C280,250 290,260 300,255 L300,400 L0,400 Z"
+                                        fill="url(#waveAgeGradient2)" opacity="0.9" />
+                                    <path d="M0,290 C50,280 100,300 150,290 C200,280 250,300 300,290 L300,400 L0,400 Z"
+                                        fill="#A0C5D1" opacity="0.7" />
+                                </svg>
+                            </div>
+                            <div class="card-layer card-frame">
+                                <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+                                    <path class="frame-path" d="M 20,20 H 280 V 380 H 20 Z" />
+                                </svg>
+                            </div>
+                            <div class="card-layer card-content age-content">
+                                <div class="content-fragment fragment-heading">
+                                    <h2 class="content-text">AGE</h2>
+                                    <h3 class="content-subtext">PRECISE TO THE SECOND</h3>
+                                </div>
+                                <div class="content-fragment fragment-meta">
+                                    <div class="meta-line"></div>
+                                    <span class="meta-text">TIME</span>
+                                </div>
+                                <div class="content-fragment fragment-body">
+                                    <p class="content-text">Calculate your exact age in years, months, weeks, days,
+                                        hours, minutes, and
+                                        seconds with precision.</p>
+                                </div>
+                                <div class="content-fragment fragment-cta">
+                                    <a href="https://calculatequick.com/everyday-life/age-calculator/" class="cta-link"
+                                        target="_blank">
+                                        <div class="cta-box"></div>
+                                        <span class="cta-text">OPEN CALCULATOR</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article> -->
+                        </div>
+
+                        <div class="carousel-controls">
+                            <button class="carousel-button prev">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+                            <button class="carousel-button next">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+
+                        </button>
+                    </div>
+
+                    <div class="dots-container"></div>
+                </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="attribution">
+            <a href="https://calculatequick.com" target="_blank">calculatequick.com</a>
+        </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="skills-container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card">
+                                <i class="ri-html5-fill"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-css3-fill"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-javascript-fill"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-reactjs-fill"></i>
+                                <span>React.js</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-bootstrap-fill"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-tailwind-css-fill"></i>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card">
+                                <i class="ri-nodejs-fill"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-server-fill"></i>
+                                <span>Express.js</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-java-fill"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-database-2-fill"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-file-list-3-fill"></i>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card">
+                                <i class="ri-git-merge-fill"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-github-fill"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-code-s-slash-fill"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="ri-terminal-box-fill"></i>
+                                <span>Terminal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="projects-container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Using a placeholder image or a div if image missing -->
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a);">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>SatyScan</h3>
+                            <p>Satyascan is a web-based project designed to verify and analyze information for accuracy
+                                and reliability. It helps users
+                                check the authenticity of data by processing and validating content efficiently, making
+                                it useful for reducing
+                                misinformation and improving decision-making.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Supabase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Ibran52/satyascan.git" target="_blank"><i
+                                        class="ri-github-fill"></i> Code</a>
+                                <a href="https://satyascan-orcin.vercel.app/" target="_blank"><i
+                                        class="ri-external-link-line"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #0d1b2a, #1b263b);">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>TEXT-SUMMARIZATION-TOOL</h3>
+                            <p>A tool for summarizing text content.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Ibran52/TEXT-SUMMARIZATION-TOOL.git" target="_blank"><i
+                                        class="ri-github-fill"></i> Code</a>
+                                <a href="https://textsummarizationtool.vercel.app/" target="_blank"><i
+                                        class="ri-external-link-line"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #2b2d42, #8d99ae);">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio V1</h3>
+                            <p>My previous portfolio website showcasing early frontend development skills and
+                                animations.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="ri-github-fill"></i> Code</a>
+                                <a href="#" target="_blank"><i class="ri-external-link-line"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements">
+            <div class="achievements-container">
+                <h2 class="section-title">My <span>Achievements</span></h2>
+
+                <div class="achievements-content">
+                    <!-- Passion/Career Text -->
+                    <div class="achievement-text-card">
+                        <h3>Passion & Career</h3>
+                        <p>I am deeply passionate about technology and continuous learning. My journey involves
+                            exploring new frameworks, solving complex problems, and contributing to the developer
+                            community. I strive to build impactful solutions that make a difference.</p>
+                    </div>
+
+                    <!-- Certificates Grid -->
+                    <h3 class="subsection-title">Certifications & Participations</h3>
+                    <div class="certificates-grid">
+                        <!-- Certificate 1 -->
+                        <div class="certificate-item">
+                            <div class="cert-frame">
+                                <img src="/images/certificate.png" alt="Hackathon Winner Certificate">
+                            </div>
+                            <p class="cert-caption">Hackathon Winner 2025</p>
+                        </div>
+
+                        <!-- Certificate 2 -->
+                        <div class="certificate-item">
+                            <div class="cert-frame">
+                                <img src="/images/cartificate2.png" alt="Web Dev Bootcamp Certificate">
+                            </div>
+                            <p class="cert-caption">Avishkar Nationl Competition 2025</p>
+                        </div>
+
+                        <!-- Certificate 3 -->
+                        <div class="certificate-item">
+                            <div class="cert-frame">
+                                <img src="/images/hackethon.jpeg" alt="Coding Competition Certificate">
+                            </div>
+                            <p class="cert-caption">Coding Competition 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-container">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <div class="contact-wrapper">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm currently available for freelance work or internship opportunities. If you have a project
+                            that needs some creative touch, or just want to say hi, feel free to send me a message!</p>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="ri-mail-send-line"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <span><a href="mailto:mdibransiddique52@gmail.com"
+                                        style="color: #fff;">mdibransiddique52@gmail.com</a></span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4><a href="https://www.google.com/maps/place/Mumbai,+Maharashtra,+India "
+                                        target="_blank" style="color: #fff;">Location</a></h4>
+                                <span>Mumbai, India</span>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h4>Follow Me</h4>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/ibran-siddique-00346b339/" target="_blank"><i
+                                        class="ri-linkedin-fill"></i></a>
+                                <a href="https://github.com/Ibran52" target="_blank"><i class="ri-github-fill"></i></a>
+                                <a href="https://www.instagram.com/ibran._.02/" target="_blank"><i
+                                        class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="input-group">
+                                <input type="text" required>
+                                <label>Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" required>
+                                <label>Your Email</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea required></textarea>
+                                <label>Your Message</label>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message <i
+                                    class="ri-send-plane-fill"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <p>&copy; 2025 Ibran Siddique. All Rights Reserved.</p>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- WhatsApp Floating Button -->
+        <a href="https://wa.me/919835737285?text=Hi%20Ibran,%20I%20liked%20your%20portfolio!" class="whatsapp-float"
+            target="_blank">
+            <i class="ri-whatsapp-fill"></i>
+        </a>
+
+        <!-- dont touch below code -->
+        <div class="hero">
+            <!-- <h1>Tubes</h1>
+            <h2>Cursor</h2> -->
+            <a target="_blank" href="https://www.framer.com/@kevin-levron/"></a>
+        </div>
+        </div>
+
+        <script type="module" src="/javascript/home.js"></script>
+</body>
+
+</html>

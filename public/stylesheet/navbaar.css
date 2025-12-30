@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 30px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.3); /* More transparent */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  animation: navbar-glow 8s infinite alternate; /* Glow Animation */
+  z-index: 1000;
+}
+
+@keyframes navbar-glow {
+    0% {
+        box-shadow: 0 0 10px #f967fb, 0 0 20px rgba(249, 103, 251, 0.3);
+        border-color: #f967fb;
+    }
+    25% {
+        box-shadow: 0 0 10px #53bc28, 0 0 20px rgba(83, 188, 40, 0.3);
+        border-color: #53bc28;
+    }
+    50% {
+        box-shadow: 0 0 10px #6958d5, 0 0 20px rgba(105, 88, 213, 0.3);
+        border-color: #6958d5;
+    }
+    75% {
+        box-shadow: 0 0 10px #ff008a, 0 0 20px rgba(255, 0, 138, 0.3);
+        border-color: #ff008a;
+    }
+    100% {
+        box-shadow: 0 0 10px #60aed5, 0 0 20px rgba(96, 174, 213, 0.3);
+        border-color: #60aed5;
+    }
+}
+
+nav::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: url(#wave-distort);
+}
+
+nav ul {
+  position: relative;
+  list-style: none;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  isolation: isolate;
+}
+
+nav ul::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: translateX(var(--x, 0)) translateY(var(--y, 0)) rotate(var(--r, 0deg));
+  opacity: 0;
+  z-index: -1;
+}
+
+nav ul.show::after {
+  opacity: 1;
+}
+
+nav li a {
+  padding: 0 20px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+nav li a:hover,
+nav li a.active {
+  transform: translateY(-2px);
+}
+
+    .text {
+    color: hsl(0, 100%, 100%);
+    }
+
+/* Brand Name Styles */
+.brand-name {
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  z-index: 1000;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  
+  /* Box styling */
+  padding: 10px 25px;
+  background: #000; /* Solid background for 3D effect */
+  border: 2px solid white;
+  border-radius: 12px;
+  box-shadow: 5px 5px 0px #00f7ff; /* 3D Hard Shadow */
+}
+
+.brand-name:hover {
+  transform: translate(-2px, -2px); /* Lift up */
+  box-shadow: 8px 8px 0px #00f7ff; /* Increased shadow */
+  border-color: #fff;
+  text-shadow: none;
+}
+
+.brand-name:active {
+  transform: translate(2px, 2px); /* Press down */
+  box-shadow: 2px 2px 0px #00f7ff;
+}
