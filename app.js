@@ -33,8 +33,10 @@ async function checkDatabase() {
     }
 }
 
+const portfolioData = require('./data/portfolio-data.json');
+
 app.get('/', (req, res) => {
-    res.render('home');
+    res.render('home', { data: portfolioData });
 });
 
 app.post('/contact', async (req, res) => {

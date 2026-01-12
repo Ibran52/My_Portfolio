@@ -1,0 +1,252 @@
+{
+    "navigation": [
+        {
+            "label": "Home",
+            "link": "#home"
+        },
+        {
+            "label": "About",
+            "link": "#about"
+        },
+        {
+            "label": "Skills",
+            "link": "#skills"
+        },
+        {
+            "label": "Projects",
+            "link": "#projects"
+        },
+        {
+            "label": "Achievements",
+            "link": "#achievements"
+        },
+        {
+            "label": "Contact",
+            "link": "#contact"
+        }
+    ],
+    "profile": {
+        "name": "Ibran Siddique",
+        "roles": [
+            "MERN Stack Developer",
+            "Web Developer",
+            "Backend Developer"
+        ],
+        "bio": "My name is Ibran Siddique. I am currently pursuing a Bachelor of Science in Information Technology (B.Sc. IT) at B.K. Birla College. In addition to my academic studies, I am also engaged in developing soft skills, which play a vital role in personal and professional growth.",
+        "email": "mdibransiddique52@gmail.com",
+        "location": "Mumbai, India",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/ibran-siddique-00346b339/",
+            "github": "https://github.com/Ibran52",
+            "instagram": "https://www.instagram.com/ibran._.02/",
+            "whatsapp": "https://wa.me/919835737285?text=Hi%20Ibran,%20I%20liked%20your%20portfolio!"
+        }
+    },
+    "about": {
+        "cards": [
+            {
+                "type": "profile",
+                "title": "ABOUT ME",
+                "subtitle": "IBRAN SIDDIQUE",
+                "text": "My name is Ibran Siddique, and I am currently pursuing a Bachelor of Science in Information Technology (B.Sc. IT) at B.K. Birla College. Alongside my academic journey, I am actively working on developing strong soft skills, which play a crucial role in both personal growth and professional success.",
+                "cta": {
+                    "text": "LINKEDIN",
+                    "link": "https://www.linkedin.com/in/ibran-siddique-00346b339/"
+                }
+            },
+            {
+                "type": "education",
+                "title": "UNIVERSITY",
+                "subtitle": "B.SC. IT",
+                "text": "I am pursuing my undergraduate degree in Information Technology (B.Sc. IT) from B.K. Birla College. My academic performance reflects my dedication, as I secured an A++ grade in my first semester with a CGPA of 9.82.",
+                "cta": {
+                    "text": "VIEW SKILLS",
+                    "link": "#skills"
+                }
+            },
+            {
+                "type": "education",
+                "title": "HSC",
+                "subtitle": "COMMERCE STREAM",
+                "text": "Completed Higher Secondary from New English Junior College, Ulhasnagar (2022–2024). Secured 68.67% in HSC Board Exam.",
+                "cta": {
+                    "text": "DETAILS",
+                    "link": "#"
+                }
+            },
+            {
+                "type": "education",
+                "title": "SSC",
+                "subtitle": "MAHARASHTRA BOARD",
+                "text": "Completed SSC from B.G. Tilak English High School, Ulhasnagar (2020–2021). Secured 67.67%, building a strong academic foundation.",
+                "cta": {
+                    "text": "DETAILS",
+                    "link": "#"
+                }
+            },
+            {
+                "type": "focus",
+                "title": "PROFESSIONAL",
+                "subtitle": "MERN & JAVA DEV",
+                "text": "I am a MERN Stack Developer with a strong interest in Java Backend Development. I focus on building scalable applications and improving both technical and interpersonal skills.",
+                "cta": {
+                    "text": "CONTACT ME",
+                    "link": "#contact"
+                }
+            }
+        ]
+    },
+    "skills": {
+        "Frontend": [
+            {
+                "name": "HTML5",
+                "icon": "ri-html5-fill"
+            },
+            {
+                "name": "CSS3",
+                "icon": "ri-css3-fill"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "ri-javascript-fill"
+            },
+            {
+                "name": "React.js",
+                "icon": "ri-reactjs-fill"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "ri-bootstrap-fill"
+            },
+            {
+                "name": "Tailwind",
+                "icon": "ri-tailwind-css-fill"
+            }
+        ],
+        "Backend": [
+            {
+                "name": "Node.js",
+                "icon": "ri-nodejs-fill"
+            },
+            {
+                "name": "Express.js",
+                "icon": "ri-server-fill"
+            },
+            {
+                "name": "Java",
+                "icon": "ri-java-fill"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "ri-database-2-fill"
+            },
+            {
+                "name": "SQL",
+                "icon": "ri-file-list-3-fill"
+            }
+        ],
+        "Tools": [
+            {
+                "name": "Git",
+                "icon": "ri-git-merge-fill"
+            },
+            {
+                "name": "GitHub",
+                "icon": "ri-github-fill"
+            },
+            {
+                "name": "VS Code",
+                "icon": "ri-code-s-slash-fill"
+            },
+            {
+                "name": "Terminal",
+                "icon": "ri-terminal-box-fill"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "SatyScan",
+            "description": "Satyascan is a web-based project designed to verify and analyze information for accuracy and reliability. It helps users check the authenticity of data by processing and validating content efficiently, making it useful for reducing misinformation and improving decision-making.",
+            "stack": [
+                "React",
+                "Node.js",
+                "Supabase"
+            ],
+            "links": [
+                {
+                    "name": "Code",
+                    "url": "https://github.com/Ibran52/satyascan.git",
+                    "icon": "ri-github-fill"
+                },
+                {
+                    "name": "Live",
+                    "url": "https://satyascan-orcin.vercel.app/",
+                    "icon": "ri-external-link-line"
+                }
+            ],
+            "gradient": "linear-gradient(45deg, #1a1a1a, #2a2a2a)"
+        },
+        {
+            "title": "TEXT-SUMMARIZATION-TOOL",
+            "description": "A tool for summarizing text content.",
+            "stack": [
+                "Python",
+                "Streamlit",
+                "flask"
+            ],
+            "links": [
+                {
+                    "name": "Code",
+                    "url": "https://github.com/Ibran52/TEXT-SUMMARIZATION-TOOL.git",
+                    "icon": "ri-github-fill"
+                },
+                {
+                    "name": "Live",
+                    "url": "https://textsummarizationtool.vercel.app/",
+                    "icon": "ri-external-link-line"
+                }
+            ],
+            "gradient": "linear-gradient(45deg, #0d1b2a, #1b263b)"
+        },
+        {
+            "title": "Portfolio V1",
+            "description": "My previous portfolio website showcasing early frontend development skills and animations.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "links": [
+                {
+                    "name": "Code",
+                    "url": "#",
+                    "icon": "ri-github-fill"
+                },
+                {
+                    "name": "Live",
+                    "url": "#",
+                    "icon": "ri-external-link-line"
+                }
+            ],
+            "gradient": "linear-gradient(45deg, #2b2d42, #8d99ae)"
+        }
+    ],
+    "achievements": {
+        "passion": "I am deeply passionate about technology and continuous learning. My journey involves exploring new frameworks, solving complex problems, and contributing to the developer community. I strive to build impactful solutions that make a difference.",
+        "certificates": [
+            {
+                "title": "Hackathon Winner 2025",
+                "image": "/images/certificate.png"
+            },
+            {
+                "title": "Avishkar Nationl Competition 2025",
+                "image": "/images/cartificate2.png"
+            },
+            {
+                "title": "Coding Competition 2025",
+                "image": "/images/hackethon.jpeg"
+            }
+        ]
+    }
+}

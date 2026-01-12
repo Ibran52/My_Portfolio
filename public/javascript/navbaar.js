@@ -75,4 +75,31 @@ document.addEventListener('DOMContentLoaded', () => {
     active.classList.add('active');
     move(active);
   }
+
+    // Mobile Menu Toggle Logic
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const menuIcon = menuToggle?.querySelector('i');
+
+    if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            
+            // Toggle icon
+            if (navMenu.classList.contains('open')) {
+                menuIcon.classList.replace('ri-menu-3-line', 'ri-close-line');
+            } else {
+                menuIcon.classList.replace('ri-close-line', 'ri-menu-3-line');
+            }
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                if (menuIcon) menuIcon.classList.replace('ri-close-line', 'ri-menu-3-line');
+            });
+        });
+    }
 });

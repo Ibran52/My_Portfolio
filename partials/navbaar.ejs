@@ -12,14 +12,17 @@
     <header>
         <!-- <div class="brand-name">Ibran Siddique</div> -->
         <nav>
-            <ul class="text">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="cursor-toggle" style="cursor: pointer; margin-left: 10px;" title="Toggle Cursor Effect"><i class="ri-mouse-fill" id="cursor-icon"></i></li>
+            <div class="menu-icon" id="menu-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
+            <ul class="text" id="nav-menu">
+                <% data.navigation.forEach(item=> { %>
+                    <li><a href="<%= item.link %>">
+                            <%= item.label %>
+                        </a></li>
+                    <% }); %>
+                        <li class="cursor-toggle" style="cursor: pointer; margin-left: 10px;"
+                            title="Toggle Cursor Effect"><i class="ri-mouse-fill" id="cursor-icon"></i></li>
             </ul>
         </nav>
     </header>

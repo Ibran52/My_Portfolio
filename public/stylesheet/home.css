@@ -1569,3 +1569,116 @@ footer {
     }
 }
 
+
+/* =========================================
+   Mobile Responsiveness Overrides
+   ========================================= */
+@media (max-width: 768px) {
+    /* Hero Section Fixes */
+    .hero {
+        flex-direction: column;
+        justify-content: flex-start; /* Align from top */
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .intro-content {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px; /* Space for navbar */
+        z-index: 20;
+    }
+
+    .intro-content h1 {
+        font-size: 2.5rem;
+        padding-top: 0;
+    }
+
+    .intro-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .intro-content p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .profile-container {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: none;
+        margin-top: 20px;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    /* General Padding & Section Fixes */
+    section {
+        padding: 50px 5% !important; /* Override individual section paddings */
+        min-height: auto;
+    }
+
+    #home {
+        height: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+    /* Certificates */
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact Form Mobile */
+    .contact-form {
+        padding: 20px;
+    }
+
+    /* Fix Carousel Padding on Mobile */
+    .carousel {
+        padding-top: 20px;
+        padding-left: 0; /* Reset previous padding */
+    }
+
+    /* About Section Mobile Fixes */
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 350px; /* Prevent too wide cards */
+        margin: 0 auto;
+    }
+}
+}
+
