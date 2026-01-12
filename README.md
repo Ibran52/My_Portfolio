@@ -1,6 +1,3 @@
-# TechXpression - My Portfolio
-
-Welcome to **TechXpression**, my personal portfolio website showcasing my skills, projects, and a way to connect with me. This project is built with Node.js, Express, and modern web technologies, featuring a Supabase backend for handling contact form submissions.
 
 ## 🚀 Futuristic 3D Portfolio Website
 
